@@ -1,0 +1,25 @@
+{
+  "name": "@riverzhou/codemirror6",
+  "version": "1.0.1",
+  "description": "CodeMirror6",
+  "main": "editor.bundle.js",
+  "keywords": [
+    "CodeMirror"
+  ],
+  "author": "Marijn Haverbeke <marijnh@gmail.com>",
+  "license": "(MIT OR GPL-3.0)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codemirror/codemirror.next.git"
+  },
+  "dependencies": {
+    "@codemirror/basic-setup": "^0.18.0",
+    "@codemirror/lang-html": "^0.18.0",
+    "@codemirror/lang-javascript": "^0.18.0",
+    "@codemirror/lang-markdown": "^0.18.0",
+    "@codemirror/theme-one-dark": "^0.18.0",
+    "@rollup/plugin-node-resolve": "^11.2.0",
+    "rollup": "^2.41.0"
+  },
+  "devDependencies": {}
+}
